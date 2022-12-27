@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;500;700&display=swap');
+
+:root {
+    --pr-color: #22a75d;
+}
+
+body {
+    font-family: 'Gothic A1', sans-serif;
+    background: #ffff;
+    background: #0f1320;
+}
+
+/* Navbar */
+.navbar {
+    z-index: 3;
+}
+
+* {
+    z-index: 2;
+}
+
+.accsent-img {
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.nav-item {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.btn-primary {
+    background-color: transparent;
+    color: #ffff;
+    font-size: 14px;
+    border: transparent;
+    border-radius: 52px;
+    width: 147px;
+    height: 48px;
+    font-weight: 800;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #ffff;
+    font-size: 14px;
+    border-radius: 52px;
+    width: 147px;
+    height: 48px;
+    font-weight: 800;
+    border-color: var(--pr-color);
+}
+
+.button-lg-primary {
+
+    color: #ffff;
+    background-color: var(--pr-color);
+    border-radius: 52px;
+    border: none;
+    width: 147px;
+    box-shadow: 0 2px 4px 0 rgba(34, 167, 93, 1);
+    font-weight: 700;
+}
+
+/* hero */
+#hero {
+    height: 100vh;
+    width: 100%;
+}
+
+.hero-tagline h1 {
+    color: #ffff;
+    font-weight: 700;
+    width: 120%;
+}
+
+
+.hero-tagline p {
+    color: #dde2ff;
+    width: 85%;
+    line-height: 30px;
+}
+
+.hero-img {
+    height: 120%;
+    z-index: 1;
+}
+
+.hero-bg {
+    height: 80%;
+    width: 65%;
+    z-index: 1;
+}
+
+/* section 2 */
+#section2 {
+    padding: 100px 0;
+}
+
+h2 {
+    font-size: 44px;
+    font-weight: 700px;
+    color: #ffff;
+    width: 800px;
+}
+
+.circle-number {
+    background-color: black;
+    border-radius: 200px;
+    width: 402px;
+    height: 402px;
+}
+
+.tag-number {
+    color: #ffff;
+    font-weight: 700;
+}
+
+.p-number {
+    color: #ffff;
+    font-weight: 100;
+}
+
+.button-lg-warning {
+    color: #0f1320;
+    background-color: #ffd100;
+    border-radius: 52px;
+    border: none;
+    width: 147px;
+    height: 48px;
+    box-shadow: 0 15px 25px 0px rgba(255, 209, 0, 1);
+    font-weight: 700;
+}
+
+.line-vertical {
+    width: 2px;
+    height: 80px;
+    background-color: #f1b2cc;
+    border-radius: 1%;
+}
+
+.number {
+    color: #ffff;
+    font-weight: 700;
+    font-size: 200px;
+
+}
+
+.card-layanan {
+    width: 100%;
+    background-color: #171b29;
+    height: 436px;
+    border-radius: 20px;
+    color: #dde2ff;
+    font-weight: 100;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+}
+
+.circle-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #ffff;
+    border-radius: 50%;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+.creators {
+    color: var(--pr-color);
+}
+
+.holders {
+    color: #2278d4;
+}
+
+.icon-creators {
+    background-color: var(--pr-color);
+    box-shadow: 0 15px 25px 0px rgba(34, 167, 93, 1);
+
+}
+
+.icon-holders {
+    background-color: #2278d4;
+    box-shadow: 0 15px 25px 0px rgba(34, 120, 212, 1);
+}
